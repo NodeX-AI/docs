@@ -8,7 +8,7 @@
 ```mermaid
 flowchart LR
     A[Пользователь] --> B[Telegram API]
-    B --> C[NodeX.ai (Бот)]
+    B --> C[Бот]
     C --> D[API моделей]
     C --> E[PostgreSQL]
     C --> F[Redis]
