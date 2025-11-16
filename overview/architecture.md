@@ -59,7 +59,8 @@ flowchart LR
 | Поле |	Тип |	Описание |
 |------|--------|-------------|
 | telegram_id |	BIGINT	| Уникальный ID пользователя в Telegram
-| current_model |	VARCHAR	| Выбранная модель ИИ
+| current_model |	VARCHAR	| Выбранная тектовая модель ИИ
+| image_model | VARCHAR | Выбранная модель для распознавания изображений
 | created_at |	TIMESTAMP	|Дата регистрации
 
 ### Таблица сообщений:
