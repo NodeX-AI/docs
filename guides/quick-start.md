@@ -42,23 +42,29 @@
 Файл .env должен выглядеть следующим образом:
     
 ```
-BOT_API_TOKEN = 'API-KEY'
+BOT_API_TOKEN = <>
 
-PG_URL = 'URL' # Вам необходимо запустить базы данных Postgres и Redis
-REDIS_URL = 'URL'
+PG_URL = <>
+REDIS_URL = <>
 
-GEMMA3 = 'API-KEY'
-DEEPSEEK = 'API-KEY'
-MINIMAX = 'API-KEY'
-NEMOTRON = 'API-KEY'
+GEMMA3 = <>
+DEEPSEEK = <>
+MINIMAX = <>
+NEMOTRON = <>
+GROK4_FAST = <>
+GROK4_FAST_ID = <>
 
+GEMMA3_IMAGES = <>
 
-GEMMA3_BASE_URL = 'URL'
-DEEPSEEK_R1T2_CHIMERA_BASE_URL = 'URL'
-MINIMAX_M2_BASE_URL = 'URL'
-NEMOTRON_BASE_URL = 'URL'
+IMAGE_HOSTING_KEY = <>
+IMAGE_HOSTING_URL = <>
 
-AES_KEY = 'AES-KEY'
+GEMMA3_BASE_URL = <>
+DEEPSEEK_R1T2_CHIMERA_BASE_URL = <>
+MINIMAX_M2_BASE_URL = <>
+NEMOTRON_BASE_URL = <> 
+GROK4_FAST_URL = <> 
+AES_KEY = <>
 ```
 
 Сгенерировать AES-ключ для шифрования вы можете при помощи команды:
