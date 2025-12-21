@@ -61,6 +61,7 @@ flowchart LR
 | telegram_id |	BIGINT	| Уникальный ID пользователя в Telegram
 | current_model |	VARCHAR	| Выбранная тектовая модель ИИ
 | image_model | VARCHAR | Выбранная модель для распознавания изображений
+| current_language | VARCHAR | Язык пользовательского интерфейса
 | created_at |	TIMESTAMP	|Дата регистрации
 
 ### Таблица сообщений:
